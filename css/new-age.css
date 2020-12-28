@@ -8,18 +8,25 @@
 [data-theme="light"] {
   --background: #fff;
   --color: #000;
+  --image: url(../img/dark.png) no-repeat;
 }
 
 /* Dark Colors */
 [data-theme="dark"] {
   --background: #000;
   --color: #fff;
+  --image: url(../img/light.png) no-repeat;
 }
+
 
 html,
 body {
   background: var(--background);
   color: var(--color);
+}
+
+.logo-masalalu {
+  background: var(--image);
 }
 
 a {
