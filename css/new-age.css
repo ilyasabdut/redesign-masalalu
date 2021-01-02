@@ -8,7 +8,7 @@
 [data-theme="light"] {
   --background: #fff;
   --color: #000;
-  --image: url(../img/dark.png) no-repeat;
+  --image: url(../img/dark.PNG) no-repeat;
 }
 
 /* Dark Colors */
